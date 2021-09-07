@@ -38,3 +38,35 @@
   color: gray;
   margin-top: 15px;
 }
+
+.user-channel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-channel__icons {
+  position: relative;
+  top: 10px;
+  left: -10px;
+  color: gray;
+}
+
+.user-component__text {
+  display: flex;
+}
+
+.user-component__side {
+  display: flex;
+  position: relative;
+  left: 315px;
+}
+
+.user-component__sideicons {
+  color: gray;
+}
+
+.user-component__sidetext {
+  position: relative;
+  right: 7px;
+  color: gray;
+}
