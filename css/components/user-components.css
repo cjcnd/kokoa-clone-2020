@@ -1,7 +1,8 @@
-.user-component,
-.user-component__column:first-child {
+.user-component__column {
   display: flex;
   align-items: center;
+  margin-bottom: 0px;
+  padding: 10px;
 }
 
 .user-component__avatar {
@@ -10,6 +11,7 @@
   border-radius: 30px;
   object-fit: cover;
   margin: 0px 20px;
+  padding: 10px 0px;
 }
 
 .user-component__title {
@@ -19,4 +21,20 @@
 
 .user-component__subtitle {
   font-size: 16px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.user-component__main {
+  border-bottom: #d6d6d6 solid 1px;
+}
+
+.user-channel__maintitle {
+  margin-left: 20px;
+  color: gray;
+  margin-top: 15px;
 }
