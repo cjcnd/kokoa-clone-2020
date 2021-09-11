@@ -1,0 +1,27 @@
+.lcon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lcon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lcon-row__icon i {
+  font-size: 35px;
+}
+
+.lcon-row__icon span {
+  margin-top: 15px;
+}
+
+.lcon-row__second {
+  display: flex;
+  margin-top: 35px;
+}
+
+.lcon-row__second div {
+  margin-right: 158px;
+}
