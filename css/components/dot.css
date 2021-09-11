@@ -1,0 +1,18 @@
+.dot {
+  background-color: tomato;
+  width: 3px;
+  height: 3px;
+  border-radius: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: -4px;
+  left: 20px;
+}
+
+.dot-parents {
+  position: relative;
+}
