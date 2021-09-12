@@ -99,3 +99,8 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite;
+}
